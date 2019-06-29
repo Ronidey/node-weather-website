@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+<body>
+  <div class="main-container">
+    {{>header}}
+    <small>created by {{name}}</small>
+    <p>Use this site to get the weather of your area</p>
+
+    <form>
+      <input type="text" id="userInput" placeholder="Location">
+      <button>Search</button>
+    </form>
+
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+  </div>
+
+  {{>footer}}
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

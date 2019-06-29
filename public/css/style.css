@@ -1,0 +1,54 @@
+body {
+  color: #333;
+  font-family: sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  flex: 1;
+}
+
+header {
+  margin: 16px 0 48px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+header a {
+  color: #bbb;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+footer {
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+button {
+  border: 1px solid #888;
+  background: #888;
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+}
